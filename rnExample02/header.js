@@ -5,7 +5,7 @@ class Header extends Component {
   render() {
     return (
       <View style={styles.header}>
-        <Text> Header </Text>
+        <Text style={styles.hText}> Header </Text>
 
       </View>
     )
@@ -17,7 +17,12 @@ const styles = StyleSheet.create({
     height: 60,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#B0B0B0'
+    backgroundColor: '#78CEFF'
+  },
+  hText: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: 'black'
   },
 });
 
